@@ -1,0 +1,11 @@
+{
+    "welcome": "Playground for Graphql and HTML",
+    "description": "Edited this template powered in Angular and Tailwind",
+    "author": "@kushteamdev",
+    "contact": "contact us",
+    "start_play": "Start playing",
+    "notfound": {
+        "header": "404",
+        "description": "You just hit a route that doesn&#39;t exist... the sadness."
+    }
+}

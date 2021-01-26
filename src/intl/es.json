@@ -1,0 +1,11 @@
+{
+    "welcome": "Espacio de juegos para Grapqhl  y HTML",
+    "description": "Edita este template potenciado en Angular y Tailwind",
+    "author": "@kushteamdev",
+    "contact": "contáctanos",
+    "start_play": "Comenzar a Jugar",
+    "notfound": {
+        "header": "404",
+        "description": "Encontraste una ruta que no existe! que alegria"
+    }
+}

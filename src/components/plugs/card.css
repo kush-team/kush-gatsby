@@ -1,0 +1,17 @@
+.card {
+  @apply relative w-full m-3 overflow-hidden ;
+  @apply text-base bg-gray-800 border border-green-400 rounded-xl;
+  @apply transition-all duration-1000 transform;
+}
+
+.card:hover {
+  @apply -translate-y-1;
+}
+
+.card h2 {
+  @apply px-8 pt-6 mb-3 font-mono text-4xl font-bold tracking-normal cursor-pointer hover:text-green-500;
+}
+
+.card p {
+  @apply px-8 pb-6 font-mono text-lg;
+}

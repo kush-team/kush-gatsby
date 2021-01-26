@@ -1,0 +1,101 @@
+/* purgecss start ignore */
+
+header nav {
+    display: block;
+  }
+  
+  header nav a {
+    display: inline-block;
+    text-decoration: none;
+    @apply px-3 py-2 mx-0 font-serif text-base font-bold tracking-wider text-white uppercase transition-all duration-200 border-t-2 border-transparent;
+  }
+  
+  body.contrast header nav a {
+    @apply text-black;
+  }
+  
+  body.contrast .headroom {
+  }
+  
+  header nav a:hover {
+    @apply text-gray-100 border-gray-300 opacity-100;
+  }
+  
+  header nav a.active {
+    @apply text-gray-600 border-gray-300 ;
+  }
+  
+  .headroom-wrapper {
+    position: absolute;
+  }
+  
+  .headroom {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    position: fixed !important;
+    @apply transition-all duration-1000;
+  }
+  
+  body .headroom {
+  }
+  
+  body .headroom a {
+    @apply text-white;
+  }
+  
+  .headroom--unfixed {
+    position: relative;
+    transform: translateY(0);
+    @apply bg-transparent;
+  }
+  
+  /*
+    .headroom--unfixed:hover {
+      background: rgba(255, 255, 255, 0.1) !important;
+    }
+    */
+  body.transparent .headroom--unfixed:hover a {
+    color: #fff;
+  }
+  
+  body.transparent .headroom--unfixed a {
+    opacity: 1;
+  }
+  .headroom--scrolled {
+    @apply bg-gray-900;
+  }
+  .headroom--unpinned {
+    position: fixed;
+    @apply bg-gray-900;
+  
+    transform: translateY(0);
+  }
+  
+  @screen md {
+    .headroom--unpinned {
+      transform: translateY(-100%);
+      background: transparent !important;
+    }
+  }
+  .headroom--pinned {
+    position: fixed;
+    transform: translateY(0%);
+  }
+  
+  @screen md {
+    .headroom--pinned {
+      @apply bg-gray-900;
+    }
+    .headroom--pinned a {
+      @apply text-white !important;
+    }
+  
+    .headroom--pinned a:hover {
+      @apply text-gray-100 !important;
+    }
+  }
+  
+  /* purgecss end ignore */
+  

@@ -1,0 +1,11 @@
+{
+    "welcome": "Playground para Graphql e HTML",
+    "description": "Edite este modelo desenvolvido por Angular e Tailwind",
+    "author": "@kushteamdev",
+    "contact": "contate-nos",
+    "start_play": "começa a jogar",
+    "notfound": {
+        "header": "404",
+        "description": "You just hit a route that doesn&#39;t exist... the sadness."
+    }
+}
