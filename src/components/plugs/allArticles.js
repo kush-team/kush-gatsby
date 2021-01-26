@@ -22,7 +22,7 @@ export default function Header() {
     }
   `)
   return (
-    <div className="grid w-full max-w-2xl grid-cols-1 gap-6">
+    <div className="grid w-full max-w-2xl grid-cols-1 gap-6 px-2">
       {data.allKushTeam.GetAllArticles.dataList.map((article, i) => (
         <Card card={article} key={i} />
       ))}

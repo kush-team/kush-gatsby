@@ -6,11 +6,11 @@ import SEO from "../components/seo/seo"
 import React from "react"
 import "./style.css"
 
-export default ({ data }) => (
+export default () => (
   <Layout>
     <SEO title="Inicio" />
     <Hero />
-    <div className="flex flex-col items-center justify-center w-full py-24 mx-auto bg-gray-900 ">
+    <div className="flex flex-col items-center justify-center w-full py-24 mx-auto bg-gray-900">
       <h2 className="mb-3 font-mono text-3xl font-bold text-center text-white ">
         AllArticles in articles.html
       </h2>

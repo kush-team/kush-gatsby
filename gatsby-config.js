@@ -25,6 +25,7 @@ module.exports = {
         fieldName: "allKushTeam",
         // Url to query from
         url: "https://kush-team.dev/graphql",
+        refetchInterval: 60,
       },
     },
     {
@@ -71,6 +72,15 @@ module.exports = {
         redirect: false,
       },
     },
+    {
+      resolve: `gatsby-plugin-nprogress`,
+      options: {
+        // Setting a color is optional.
+        color: `#10b981`,
+        // Disable the loading spinner.
+        showSpinner: true,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -87,6 +97,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    //`gatsby-plugin-offline`,
   ],
 }

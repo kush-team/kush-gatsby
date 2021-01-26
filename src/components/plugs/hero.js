@@ -5,7 +5,7 @@ import "twin.macro"
 class Hero extends Component {
   render = () => {
     return (
-      <div className="relative py-24 text-green-900 bg-green-800 pattern-vertical-lines-lg">
+      <div className="relative py-24 text-green-900 bg-green-800 border-t-2 border-green-500 pattern-cross-dots-lg">
         <div className="relative z-20 max-w-3xl px-6 py-24 mx-auto text-indigo-100">
           <div className="relative flex flex-col items-center justify-center w-full font-mono text-center md:text-left">
             <span className="px-3 font-bold text-green-100 uppercase bg-green-900 rounded-md tracking-loose">
@@ -17,7 +17,10 @@ class Hero extends Component {
             <p className="mb-12 text-lg leading-normal text-center ">
               <FormattedMessage id="description" />
             </p>
-            <a href="https://kush-team.dev/" className="font-mono text-lg font-bold text-white uppercase border-b-2 border-green-500 cursor-pointer hover:no-underline">
+            <a
+              href="https://kush-team.dev/"
+              className="font-mono text-lg font-bold text-white uppercase border-b-2 border-green-500 cursor-pointer hover:no-underline"
+            >
               edit template
             </a>
           </div>
